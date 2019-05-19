@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.davidchura.tiendasperuanas.iniciarsesion.InicioSesionActivity;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button mbtnCrearCuenta;
     TextView mtvIniciarSesion;
@@ -36,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void mostrarIniciarSesion() {
-        startActivity(new Intent(this,InicioSesionActivity.class));
+        startActivity(new Intent(this, InicioSesionActivity.class));
     }
 
     private void mostrarCrearCuenta() {
