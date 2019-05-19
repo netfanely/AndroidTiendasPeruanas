@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
+import com.davidchura.tiendasperuanas.EscritorioActivity;
 import com.davidchura.tiendasperuanas.R;
 
 public class InicioSesionActivity extends AppCompatActivity {
@@ -50,4 +52,9 @@ public class InicioSesionActivity extends AppCompatActivity {
     private void mostrarAcercade() {
         startActivity(new Intent(this,AcercadeActivity.class));
     }
+
+    public void iniciarSesion(View view) {
+        startActivity(new Intent(this, EscritorioActivity.class));
+    }
 }
+
