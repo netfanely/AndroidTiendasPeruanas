@@ -27,5 +27,6 @@
         android:id="@+id/btnIniciarSesion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+             android:onClick="iniciarSesion"
         android:text="@string/iniciar_sesion"/>
 </LinearLayout>
