@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#551108</color>
+    <color name="colorPrimaryDark">#B6564A</color>
+    <color name="colorAccent">#B6954A</color>
+    <color name="botonFondo">#B6804A</color>
+    <color name="botonTexto">#000000</color>
+    <color name="MegaTexto">#306471</color>
+
+</resources>

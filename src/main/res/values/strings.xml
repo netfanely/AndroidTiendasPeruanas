@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tienda Perú</string>
+    <string name="mensaje">Entérate de lo que está pasando en el mundo en este momento</string>
+    <string name="crear_cuenta">Crear una cuenta</string>
+    <string name="tienes_cuenta">¿Ya tiene una cuenta?</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+</resources>
